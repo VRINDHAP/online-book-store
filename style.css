@@ -1,0 +1,214 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.back{
+    background-image: url(vecteezy_ai-generated-stack-of-book-on-tabletop-behind-blurred_35790625.jpeg);
+    height:100vh;
+    background-size:cover;
+    margin:0px;
+    display:flex;
+    
+   
+}
+.front{
+    margin-top:40vh;
+    justify-content: left;
+    align-items: center;
+    margin-left:10vw;    
+
+}
+.mainh{
+    margin:3px;
+}
+.button1{
+    
+        background: linear-gradient(45deg, #007bff, #0056b3);
+        color: white;
+        padding: 12px 25px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: transform 0.2s, background 0.3s;
+    }
+.butt{
+    text-align:center;
+
+}
+    
+    .button:hover {
+        background: linear-gradient(45deg, #0056b3, #004080);
+        transform: scale(1.05); /* Slightly increase size */
+    }
+    
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: #f4f4f8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(43, 11, 102);
+    
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: rgb(20, 19, 22);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #78a1df;
+}
+.box2 {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    margin:20px;
+    background-image:url(https://world.edu/wp-content/uploads/2023/09/sci-fi-books.jpg);
+    
+}
+.box2 p{
+    background: linear-gradient(45deg, #aecedb, #f8fafd);
+    color: rgb(29, 21, 81);
+    padding: 12px 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+.b1{
+    background-image: url(https://ik.imagekit.io/panmac/tr:f-auto,w-740,pr-true//bcd02f72-b50c-0179-8b4b-5e44f5340bd4/1aefd3bc-ac87-448e-af11-51c421261876/The-best-non-fiction-books.webp);
+}
+.b2{
+    background-image:url(https://s.itl.cat/pngfile/s/299-2991476_school-books-on-desk-education-concept-publication-1080p.jpg);
+}
+.b3{
+    background-image:url(https://www.booktrust.org.uk/globalassets/images/news-and-features/blogs-2022/12.-december/best-books-of-2022-16x9.jpg?w=1920&h=1080&quality=70&anchor=middlecenter);
+}
+.box3{
+    width:100vw;
+    height:80vh;
+    background-color: #bbd4f9;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.fict{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+   
+}
+.abt{
+    width:100vw;
+    height:80vh;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url(vecteezy_asian-delivery-express-courier-young-man-use-giving-boxes-to_42628666.JPG);
+    background-size: cover;
+    
+}
+.abtbox{
+    border-style:solid ;
+    border-radius:12px;
+    border-width:2px;
+    padding-top: 30px;
+    border-color: beige;
+    width:30vw;
+    height:60vh;
+    margin:10vw;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 13px rgba(167, 133, 230, 0.4);
+    display:flex;
+    align-items: center;
+}
+.abtbox1{
+   
+    border-style:solid ;
+    border-radius:12px;
+    border-width:2px;
+    padding-top: 30px;
+    border-color: beige;
+    padding-top: 30px;
+    backdrop-filter: blur(10px);
+    width:30vw;
+    height:60vh;
+    margin:10vw;
+    text-align: center;
+    padding: 15px;
+    
+    display:flex;
+    align-items: center;
+}
+.con{
+    width:100vw;
+    height:90vh;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url(vecteezy_man-pointing-at-a-wooden-block-communication-concept-with_21698967.jpg);
+    background-size:cover;
+}
+.countdown-container {
+    border-style:solid ;
+    border-radius:12px;
+    border-width:1px;
+    border-color: rgb(164, 188, 199);
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#countdown {
+    font-size: 20px;
+    font-weight: bold;
+    color: #78a1df;
+    background:transparent;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
