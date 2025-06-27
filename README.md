@@ -33,7 +33,7 @@ This is a front-end web project for an **Online Bookstore**, developed using **H
 ---
 
 ##preview
-[![Watch the demo](https://img.youtube.com/vi/L6Sz6Kh_oig/0.jpg)](https://youtu.be/jkaJ0NopULc?si=URb7SNXUu4y9_BLA)
+[![Watch the demo](https://img.youtube.com/vi/jkaJ0NopULc/0.jpg)](https://youtu.be/jkaJ0NopULc?si=URb7SNXUu4y9_BLA)
 
 ---
 
